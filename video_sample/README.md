@@ -1,4 +1,4 @@
-```
+```shell
 $ % ffmpeg -version
 ffmpeg version 6.0 Copyright (c) 2000-2023 the FFmpeg developers
 built with Apple clang version 14.0.3 (clang-1403.0.22.14.1)
@@ -11,4 +11,11 @@ libavfilter     9.  3.100 /  9.  3.100
 libswscale      7.  1.100 /  7.  1.100
 libswresample   4. 10.100 /  4. 10.100
 libpostproc    57.  1.100 / 57.  1.100
+```
+
+```shell
+s11081@CA-20009630 bin % mp4info
+MP4 File Info - Version 1.3.4
+(Bento4 Version 1.6.0.0)
+(c) 2002-2017 Axiomatic Systems, LLC
 ```
