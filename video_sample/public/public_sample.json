@@ -1,0 +1,19 @@
+{
+    "abema" : {
+      "2019": {
+        "mpegDash": {
+          "vod" : {
+            "clearkey": {
+              "manifestURL": "https://vod-abematv.akamaized.net/program/90-1286_s1_p10/manifest.mpd",
+              "licenseURL": ""
+            }
+          }
+        }
+      }
+    },
+    "blender": {
+      "progressive_mp4": {
+        "playlistURL": "https://ia600300.us.archive.org/17/items/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4"
+      }
+    }
+}
