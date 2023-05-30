@@ -1,5 +1,5 @@
 ```shell
-ffmpeg -i ../../../blender/progressive_mp4/big_buck_bunny_720p_surround.mp4 -c:v libx264 -b:v 1M -g 60 -keyint_min 60 -sc_threshold 0 -c:a aac -b:a 128k -movflags +faststart+frag_keyframe+empty_moov -f dash manifest.mpd
+ffmpeg -i ../../../../../blender/progressive_mp4/big_buck_bunny_720p_surround.mp4 -c:v libx264 -b:v 1M -g 60 -keyint_min 60 -sc_threshold 0 -c:a aac -b:a 128k -movflags +faststart+frag_keyframe+empty_moov -f dash manifest.mpd
 ```
 
 -gオプションは、FFmpegでビデオエンコーディングを行う際に、GOP（Group of Pictures）のサイズを設定するために使用されます。GOPとは、連続したフレームのグループで、Iフレーム（キーフレーム）、Pフレーム（前方予測フレーム）、およびBフレーム（双方向予測フレーム）から構成されます。
