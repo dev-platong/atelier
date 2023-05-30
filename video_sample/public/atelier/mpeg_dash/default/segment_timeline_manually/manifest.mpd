@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" mediaPresentationDuration="PT596.458S">
+  <Period id="0">
+    <AdaptationSet mimeType="video/mp4">
+      <SegmentTemplate timescale="90000" media="output$Number$.mp4" initialization="output000.mp4" startNumber="0">
+        <SegmentTimeline>
+          <S d="450450"/>
+          <S d="450450"/>
+          <!-- ... -->
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="1" bandwidth="893067" codecs="avc1.42c01e" mimeType="video/mp4" sar="1:1" width="640" height="360" frameRate="30">
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4">
+      <SegmentTemplate timescale="44100" media="audio$Number$.mp4" initialization="audio000.mp4" startNumber="0">
+        <SegmentTimeline>
+          <S d="22050"/>
+          <S d="22050"/>
+          <!-- ... -->
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="2" bandwidth="132784" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
