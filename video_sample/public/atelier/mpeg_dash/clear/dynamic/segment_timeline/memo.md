@@ -1,4 +1,9 @@
 ```shell
+ffmpeg -re -i ../../../../../blender/progressive_mp4/big_buck_bunny_720p_surround.mp4 -c:v libx264 -c:a aac -strict -2 -f dash -window_size 5 -extra_window_size 10 -use_template 1 -use_timeline 1 -min_seg_duration 2000 -streaming 1 -ldash 1 -adaptation_sets "id=0,streams=v id=1,streams=a" -remove_at_exit 1 output.mpd
+```
+
+以下は使わない
+```shell
 ffmpeg -i ../../../../../blender/progressive_mp4/big_buck_bunny_720p_surround.mp4 -c:v libx264 -b:v 1M -g 60 -keyint_min 60 -sc_threshold 0 -c:a aac -b:a 128k -movflags +faststart+frag_keyframe+empty_moov -f dash manifest.mpd
 ```
 
