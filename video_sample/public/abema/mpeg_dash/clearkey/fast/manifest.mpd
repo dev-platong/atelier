@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:cenc="urn:mpeg:cenc:2013" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" minBufferTime="PT5.000000S" publishTime="2023-06-01T14:29:20Z" minimumUpdatePeriod="PT5.000000S" availabilityStartTime="1970-01-01T00:00:00Z" timeShiftBufferDepth="PT60.000000S" suggestedPresentationDelay="PT15.000000S">
+  <BaseURL>./../../</BaseURL>
+  <Period id="1685629710135" start="PT1685629695.140000S">
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true">
+      <InbandEventStream schemeIdUri="urn:abema:mpeg:dash:event:092016" value="1"/>
+      <SegmentTemplate timescale="1000" media="mp4ad/commercial/11/EYrRiFWWjrMwBZ/$RepresentationID$/$Time$.m4s" initialization="mp4ad/commercial/11/EYrRiFWWjrMwBZ/$RepresentationID$/init.m4s">
+        <SegmentTimeline>
+          <S d="5038" t="15114" r="1"/>
+          <S d="4840"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="video-5170758" bandwidth="5170758" codecs="avc1.4D4028" frameRate="30000/1001" height="1080" width="1920" scanType="progressive"/>
+      <Representation id="video-2280453" bandwidth="2280453" codecs="avc1.4D401F" frameRate="30000/1001" height="720" width="1280" scanType="progressive"/>
+      <Representation id="video-993262" bandwidth="993262" codecs="avc1.4D401F" frameRate="30000/1001" height="480" width="854" scanType="progressive"/>
+      <Representation id="video-602025" bandwidth="602025" codecs="avc1.4D401F" frameRate="30000/1001" height="360" width="640" scanType="progressive"/>
+      <Representation id="video-267255" bandwidth="267255" codecs="avc1.4D401F" frameRate="30000/1001" height="240" width="426" scanType="progressive"/>
+      <Representation id="video-125864" bandwidth="125864" codecs="avc1.4D401F" frameRate="30000/1001" height="180" width="320" scanType="progressive"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" segmentAlignment="true">
+      <SegmentTemplate timescale="1000" media="mp4ad/commercial/11/EYrRiFWWjrMwBZ/$RepresentationID$/$Time$.m4s" initialization="mp4ad/commercial/11/EYrRiFWWjrMwBZ/$RepresentationID$/init.m4s">
+        <SegmentTimeline>
+          <S d="5038" t="15114" r="1"/>
+          <S d="4840"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio-199364" bandwidth="199364" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio-165189" bandwidth="165189" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio-132833" bandwidth="132833" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio-67726" bandwidth="67726" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="1685629740135" start="PT1685629725.140000S">
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true">
+      <InbandEventStream schemeIdUri="urn:abema:mpeg:dash:event:092016" value="1"/>
+      <SegmentTemplate timescale="1000" media="mp4ad/commercial/11/EYrRiFWWjrMwBa/$RepresentationID$/$Time$.m4s" initialization="mp4ad/commercial/11/EYrRiFWWjrMwBa/$RepresentationID$/init.m4s">
+        <SegmentTimeline>
+          <S d="5038" t="0" r="4"/>
+          <S d="4840"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="video-7666792" bandwidth="7666792" codecs="avc1.4D4028" frameRate="30000/1001" height="1080" width="1920" scanType="progressive"/>
+      <Representation id="video-3720250" bandwidth="3720250" codecs="avc1.4D401F" frameRate="30000/1001" height="720" width="1280" scanType="progressive"/>
+      <Representation id="video-1522163" bandwidth="1522163" codecs="avc1.4D401F" frameRate="30000/1001" height="480" width="854" scanType="progressive"/>
+      <Representation id="video-873697" bandwidth="873697" codecs="avc1.4D401F" frameRate="30000/1001" height="360" width="640" scanType="progressive"/>
+      <Representation id="video-361047" bandwidth="361047" codecs="avc1.4D401F" frameRate="30000/1001" height="240" width="426" scanType="progressive"/>
+      <Representation id="video-189351" bandwidth="189351" codecs="avc1.4D401F" frameRate="30000/1001" height="180" width="320" scanType="progressive"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" segmentAlignment="true">
+      <SegmentTemplate timescale="1000" media="mp4ad/commercial/11/EYrRiFWWjrMwBa/$RepresentationID$/$Time$.m4s" initialization="mp4ad/commercial/11/EYrRiFWWjrMwBa/$RepresentationID$/init.m4s">
+        <SegmentTimeline>
+          <S d="5038" t="0" r="4"/>
+          <S d="4840"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio-198119" bandwidth="198119" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio-162631" bandwidth="162631" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio-129929" bandwidth="129929" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio-64467" bandwidth="64467" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="1685629770135" start="PT1685629755.140000S">
+    <AdaptationSet mimeType="video/mp4" segmentAlignment="true">
+      <InbandEventStream schemeIdUri="urn:abema:mpeg:dash:event:092016" value="1"/>
+      <SegmentTemplate timescale="1000" media="mp4ad/commercial/11/EYrRiFWWjrMwBb/$RepresentationID$/$Time$.m4s" initialization="mp4ad/commercial/11/EYrRiFWWjrMwBb/$RepresentationID$/init.m4s">
+        <SegmentTimeline>
+          <S d="5038" t="0"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="video-3851583" bandwidth="3851583" codecs="avc1.4D4028" frameRate="30000/1001" height="1080" width="1920" scanType="progressive"/>
+      <Representation id="video-1985868" bandwidth="1985868" codecs="avc1.4D401F" frameRate="30000/1001" height="720" width="1280" scanType="progressive"/>
+      <Representation id="video-845913" bandwidth="845913" codecs="avc1.4D401F" frameRate="30000/1001" height="480" width="854" scanType="progressive"/>
+      <Representation id="video-512699" bandwidth="512699" codecs="avc1.4D401F" frameRate="30000/1001" height="360" width="640" scanType="progressive"/>
+      <Representation id="video-225268" bandwidth="225268" codecs="avc1.4D401F" frameRate="30000/1001" height="240" width="426" scanType="progressive"/>
+      <Representation id="video-114310" bandwidth="114310" codecs="avc1.4D401F" frameRate="30000/1001" height="180" width="320" scanType="progressive"/>
+    </AdaptationSet>
+    <AdaptationSet mimeType="audio/mp4" segmentAlignment="true">
+      <SegmentTemplate timescale="1000" media="mp4ad/commercial/11/EYrRiFWWjrMwBb/$RepresentationID$/$Time$.m4s" initialization="mp4ad/commercial/11/EYrRiFWWjrMwBb/$RepresentationID$/init.m4s">
+        <SegmentTimeline>
+          <S d="5038" t="0"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation id="audio-197841" bandwidth="197841" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio-161023" bandwidth="161023" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio-126004" bandwidth="126004" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
+      <Representation id="audio-64014" bandwidth="64014" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="1"/>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <UTCTiming schemeIdUri="urn:mpeg:dash:utc:direct:2014" value="2023-06-01T14:29:12Z"/>
+</MPD>
