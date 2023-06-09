@@ -18,6 +18,7 @@
     },
     "dash-if-org": {
       "mpegDash": {
+        "contentsGroup": "https://github.com/Dash-Industry-Forum/dash.js/blob/fb5fb74cf31c6832e4959fa017ca90fffe0abfbb/samples/dash-if-reference-player/app/sources.json",
         "live": {
           "clear" : {
             "manifestURL": "https://livesim.dashif.org/livesim/segtimeline_1/testpic_2s/Manifest.mpd",
