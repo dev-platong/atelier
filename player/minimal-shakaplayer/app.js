@@ -1,6 +1,6 @@
 var manifestUri =
   // "https://livesim.dashif.org/livesim/scte35_2/testpic_2s/Manifest.mpd";
-  "http://localhost:8000/video_sample/public/atelier/mpeg_dash/clear/vod/emsg/dash-test/stream.mpd";
+  "http://localhost:8000/video_sample/public/atelier/mpeg_dash/clear/vod/metadata_in_emsg/stream/stream.mpd";
 // "//storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd";
 
 function initApp() {
