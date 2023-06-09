@@ -2,7 +2,7 @@
 
 \<AdaptationSet\>タグは必ず1つ以上存在する。
 
-記法は \<SegmentBase\>/\<SegmentList>/\<SegmentTemplate> のいずれか。
+記法は \<SegmentBase\>・\<BaseURL\>&\<SegmentList\>・\<SegmentTemplate\> のいずれか。
 
 -use_template[boolean]
 Enable (1) or disable (0) use of SegmentTemplate instead of SegmentList.
