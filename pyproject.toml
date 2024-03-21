@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "atelier"
+version = "0.1.0"
+description = ""
+authors = ["Kazuki Nagai <platong8249@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+boto3 = "^1.34.65"
+aws-shell = "^0.2.2"
+
+
+[tool.poetry.group.dev.dependencies]
+emsg = {path = "/Users/s11081/work/emsg/dist/emsg-0.0.4-py3-none-any.whl"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
