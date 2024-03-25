@@ -5,9 +5,7 @@ load_dotenv()
 
 # ファイルが保存されているローカルディレクトリのパス
 local_directory = 'player'
-# アップロード先のS3バケット名
 bucket_name = os.getenv('S3_BUCKET_NAME')
-# S3サービスを使用するためのboto3 clientを作成します
 s3_client = boto3.client('s3')
 
 def upload_files(path):
