@@ -5,6 +5,7 @@
     <AdaptationSet id="0" contentType="audio" subsegmentStartsWithSAP="1" subsegmentAlignment="true">
       <Representation id="0" bandwidth="130425" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio.mp4</BaseURL>
         <SegmentBase indexRange="807-2038" timescale="44100">
           <Initialization range="0-806"/>
         </SegmentBase>
@@ -12,6 +13,7 @@
     </AdaptationSet>
     <AdaptationSet id="1" contentType="video" width="640" height="360" frameRate="12288/512" subsegmentAlignment="true" par="16:9">
       <Representation id="1" bandwidth="913507" codecs="avc1.42c01e" mimeType="video/mp4" sar="1:1">
+        <BaseURL>video.mp4</BaseURL>
         <SegmentBase indexRange="836-1839" timescale="12288">
           <Initialization range="0-835"/>
         </SegmentBase>

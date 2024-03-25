@@ -1,6 +1,6 @@
 packager \
-  in=../../../blender/progressive_mp4/big_buck_bunny_720p_surround.mp4,stream=audio,output=audio.mp4 \
-  in=../../../blender/progressive_mp4/big_buck_bunny_720p_surround.mp4,stream=video,output=video.mp4 \
+  in=../../../../blender/progressive_mp4/big_buck_bunny_720p_surround.mp4,stream=audio,output=audio.mp4 \
+  in=../../../../blender/progressive_mp4/big_buck_bunny_720p_surround.mp4,stream=video,output=video.mp4 \
   --enable_widevine_encryption \
   --key_server_url https://license.uat.widevine.com/cenc/getcontentkey/widevine_test \
   --content_id 7465737420636f6e74656e74206964 \

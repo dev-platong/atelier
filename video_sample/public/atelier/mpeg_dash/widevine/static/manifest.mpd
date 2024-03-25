@@ -12,6 +12,7 @@
       </ContentProtection>
       <Representation id="0" bandwidth="132694" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio.mp4</BaseURL>
         <SegmentBase indexRange="1136-2367" timescale="44100">
           <Initialization range="0-1135"/>
         </SegmentBase>
@@ -26,6 +27,7 @@
         <cenc:pssh>AAAAdHBzc2gBAAAAEHfv7MCyTQKs4zweUuL7SwAAAAWruicei89VK70uhqQ0qaXZbXbyXLF/Xha46u9rv1gtjmR4YzefQVQQg3fnTG7A47j9zD1hbtxc6pslWFgdnNOP88XgNh5mVLKPgEnHeLI5RgAAAAA=</cenc:pssh>
       </ContentProtection>
       <Representation id="1" bandwidth="916644" codecs="avc1.42c01e" mimeType="video/mp4" sar="1:1">
+        <BaseURL>video.mp4</BaseURL>
         <SegmentBase indexRange="1222-2225" timescale="12288">
           <Initialization range="0-1221"/>
         </SegmentBase>
