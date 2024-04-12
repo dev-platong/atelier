@@ -23,6 +23,14 @@ poetry run python -m build
 poetry add --group dev dist/emsg-0.0.4-py3-none-any.whl
 ```
 
+# Run
+
+```shell
+poetry run python server.py
+```
+
+Then we can access localhost:8000.
+
 # Using tools
 
 ```shell
