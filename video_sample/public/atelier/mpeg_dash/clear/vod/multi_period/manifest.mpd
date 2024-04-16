@@ -1,0 +1,40 @@
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT1250.250000S">
+  <Period id="0" duration="PT653.791687S">
+    <AdaptationSet id="0" contentType="audio" subsegmentStartsWithSAP="1" subsegmentAlignment="true">
+      <Representation id="0" bandwidth="137598" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio1.mp4</BaseURL>
+        <SegmentBase indexRange="833-2172" timescale="44100">
+          <Initialization range="0-832"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" width="1280" height="720" frameRate="12288/512" subsegmentAlignment="true" par="16:9">
+      <Representation id="1" bandwidth="5348356" codecs="avc1.64001f" mimeType="video/mp4" sar="1:1">
+        <BaseURL>video1.mp4</BaseURL>
+        <SegmentBase indexRange="878-2013" timescale="12288">
+          <Initialization range="0-877"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period id="1" duration="PT596.458313S">
+    <AdaptationSet id="0" contentType="audio" subsegmentStartsWithSAP="1" subsegmentAlignment="true">
+      <Representation id="0" bandwidth="135436" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>audio2.mp4</BaseURL>
+        <SegmentBase indexRange="833-2064" timescale="44100">
+          <Initialization range="0-832"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" width="640" height="360" frameRate="12288/512" subsegmentAlignment="true" par="16:9">
+      <Representation id="1" bandwidth="1032595" codecs="avc1.64001e" mimeType="video/mp4" sar="1:1">
+        <BaseURL>video2.mp4</BaseURL>
+        <SegmentBase indexRange="878-1881" timescale="12288">
+          <Initialization range="0-877"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
