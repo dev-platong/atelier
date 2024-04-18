@@ -1,3 +1,0 @@
-[submodule "player/shaka-player"]
-	path = player/shaka-player
-	url = git@github.com:shaka-project/shaka-player.git
