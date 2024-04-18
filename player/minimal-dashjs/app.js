@@ -41,5 +41,7 @@ player.initialize(document.querySelector("#videoPlayer"), manifestUri, true);
 player.setProtectionData({
   "com.widevine.alpha": {
       "serverURL": licenseUri,
-      priority: 0
+      priority: 0,
+      "audioRobustness": "SW_SECURE_CRYPTO",
+      "videoRobustness": "SW_SECURE_CRYPTO"
   }});
