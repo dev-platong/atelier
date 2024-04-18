@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generated with https://github.com/shaka-project/shaka-packager version v3.0.4-ceeb378-release-->
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011" minBufferTime="PT2S" type="static" mediaPresentationDuration="PT40S">
+  <Period id="0">
+    <AdaptationSet id="0" contentType="audio" startWithSAP="1" segmentAlignment="true">
+      <Representation id="0" bandwidth="131953" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="44100" initialization="audio2/init.mp4" media="audio2/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="265216"/>
+            <S t="265216" d="264192"/>
+            <S t="529408" d="265216"/>
+            <S t="794624" d="264192" r="1"/>
+            <S t="1323008" d="265216"/>
+            <S t="1588224" d="175776"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" width="640" height="360" frameRate="12288/512" segmentAlignment="true" par="16:9">
+      <Representation id="1" bandwidth="633139" codecs="avc1.64001e" mimeType="video/mp4" sar="1:1">
+        <SegmentTemplate timescale="12288" initialization="video2/init.mp4" media="video2/$Number$.m4s" startNumber="1">
+          <SegmentTimeline>
+            <S t="0" d="121344"/>
+            <S t="121344" d="47616"/>
+            <S t="168960" d="89600"/>
+            <S t="258560" d="128000"/>
+            <S t="386560" d="104960"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
