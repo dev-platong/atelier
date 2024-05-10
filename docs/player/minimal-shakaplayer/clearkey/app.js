@@ -14,8 +14,8 @@
  ```
  */
 
-localStorage.setItem("url_0", "http://localhost:8000/video_sample/public/dash/singleperiod/clearkey/output/stream.mpd");
-localStorage.setItem("license_0", "http://localhost:8000/api/license");
+localStorage.setItem("url_0", "https://storage.googleapis.com/shaka-demo-assets/angel-one-clearkey/dash.mpd");
+localStorage.setItem("license_0", "https://cwip-shaka-proxy.appspot.com/clearkey?_u3wDe7erb7v8Lqt8A3QDQ=ABEiM0RVZneImaq7zN3u_w");
 localStorage.setItem("targetStreamIndex", "0");
 
 const targetStreamIndex = parseInt(localStorage.getItem("targetStreamIndex"));
@@ -37,14 +37,13 @@ function initPlayer() {
       dispatchAllEmsgBoxes: true,
     },
     drm: {
-      /*
       servers: {
         'org.w3.clearkey': licenseUri,
       },
-      */
+      /*
       "clearKeys": {
-        "a7e61c373e219033c21091fa607bf3b7": "76a6c65c5ea762046bd749a2e632ccbb"
-      }
+        "FEEDF00DEEDEADBEEFF0BAADF00DD00D": "00112233445566778899AABBCCDDEEFF"
+      }*/
     }
   });
 
