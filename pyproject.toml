@@ -13,7 +13,8 @@ aws-shell = "^0.2.2"
 
 
 [tool.poetry.group.dev.dependencies]
-emsg = {path = "/Users/s11081/work/emsg/dist/emsg-0.0.4-py3-none-any.whl"}
+emsg = {path = "emsg/dist/emsg-0.0.4-py3-none-any.whl"}
+build = "^1.2.2.post1"
 
 [build-system]
 requires = ["poetry-core"]

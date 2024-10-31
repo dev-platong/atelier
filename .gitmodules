@@ -1,0 +1,3 @@
+[submodule "emsg"]
+	path = emsg
+	url = git@github.com:dev-platong/emsg.git
