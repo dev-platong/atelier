@@ -1,1 +1,0 @@
-ffmpegではオプションがないので作れません。 -use_templateを切っても \<SegmentList> で生成してまいます。
