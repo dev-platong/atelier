@@ -24,6 +24,27 @@ ffmpeg -re -i ./video_sample/public/mp4/sample_1080p.mp4 -c:v libx264 -c:a aac -
 
 ### VOD (Type=static)
 
+#### ABR video and audio
+
+```shell
+ffmpeg -i ./video_sample/public/mp4/sample_1080p.mp4 \
+    -map 0:v -map 0:v -map 0:v -map 0:a -map 0:a \
+    -c:v libx264 -c:a aac \
+    -b:v:0 5000k -s:v:0 1920x1080 \
+    -b:v:1 3000k -s:v:1 1280x720 \
+    -b:v:2 1000k -s:v:2 854x480 \
+    -b:a:0 192k \
+    -b:a:1 128k \
+    -profile:v:0 high -profile:v:1 high -profile:v:2 high \
+    -bf 1 -g 60 -keyint_min 60 \
+    -sc_threshold 0 -streaming 1 \
+    -use_template 1 -use_timeline 1 \
+    -init_seg_name "init\$RepresentationID$.m4s" \
+    -adaptation_sets "id=0,streams=v id=1,streams=a" \
+    -f dash \
+    output/manifest.mpd
+```
+
 #### Metadata (emsg)
 
 ```shell
